@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  transition: 00.7s;
+}
+.logo{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+background-color:#0E0002;
+}
+.pesquisa{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    margin-top: 1%;
+  text-align: center;
+    margin-bottom: 2%;
+  width: 40%;
+font-size: 30px;
+}
+h1.simbolo{
+  background-color: white;
+  position: relative;
+  bottom: 9px;
+  height: 50px;
+}
+.itens{
+    display: flex;
+
+    background-color:#0E0002;
+    width: 100%;
+   
+}
+.contaecarro{
+    justify-content: space-around;
+    line-height: 3em;
+    float: right;
+  display: flex;
+  background-color:#0E0002;
+  width: 100%;
+ text-align: right;
+ padding-top: 2%;
+
+}
+.contaecarro a{
+    
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 20px;
+}
+.inputItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.contentFrase{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color:#0E0002;
+    color: white;
+}
+.frase{
+
+    display: flex;
+   width: 40%;
+    justify-content: center;
+}
+livroAberto{
+    display:flex ;
+    justify-content: space-between;
+    background-image: url(https://cdn1.mundodastribos.com/614066-Livros-mais-pirateados-pela-internet-no-Brasil-quais-s%C3%A3o.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+height: 40vh;
+background-attachment: local;
+box-shadow:  0px 0px 30px 10px black;
+}
+.contentTitle2{
+  display: flex;
+  justify-content: center;
+  background-color: #0E0002;
+  box-shadow: 2px 2px 30px 30px black;
+}
+.title2{
+  background-size: 100%;
+background-repeat: no-repeat;
+  border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+
+    color: aliceblue;
+    line-height: 3em;
+}
+.title2:hover{
+transition: 1s;
+ text-decoration: underline;
+}
+ .wrapper img{
+    border-radius: 20px;
+    height: 30vh;
+    width: 100%;
+    cursor: pointer;
+    ;
+
+}
+.wrapper img:hover{
+  transition: 0.7s;
+  transform: scale(1.1)
+}
+.wrapper {
+ 
+
+  border-color:  rgb(47, 41, 41);
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,100%);
+    overflow:hidden;
+    scroll-behavior: smooth;
+
+    box-shadow: 0px 0px 30px 10px  black;
+}
+    section {
+      gap: 3%;
+      width: 100%;
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(5, auto);
+      margin: 20px 0;
+    
+}    
+      .item {
+        padding: 0 2px;
+        
+      }           
+     .wrapper a {
+    
+        position: absolute;
+        color: #fff;
+        text-decoration: none;
+        font-size: 6em;
+        background:rgb(0,0,0);
+        width: 80px;
+        padding: 20px;
+        text-align: center;
+        z-index: 1;
+       font-weight: bold;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+      } 
+      .wrapper   a:nth-of-type(1) {
+        padding-top: 4%;
+          top:0; bottom:0; left:0;
+          background: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+        }
+        .wrapper    a:nth-of-type(2) {
+            padding-top: 4%;
+          top:0; bottom:0; right: 0;
+          background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+        }
+
+        .todoslivrostitle{
+          padding-top: 2em;
+          display: flex;
+          justify-content: center;
+ background-color: #0E0002;
+          color: white;
+          box-shadow: 0px 0px 20px 15px #0E0002;
+          color: rgb(47, 41, 41);
+
+        }
+        
+        .todoslivrostitle h2{
+          color: white;
+          font-size: 3.5em;
+          text-align: center;
+        
+        }
+
+        .todoslivrostitle input{
+          border-radius: 10px;
+          width: 30%;
+          text-align: center;
+          font-size: 1.4em;
+          box-shadow: 2px 2px 3px 25px #0E0002;
+
+        }
+        .TemaTitleContent{
+          display: flex;
+          justify-content: center;
+          background-color: black;
+     padding: 4%;
+     background-color: #0E0002;
+     box-shadow: 0px 0px 20px 15px #0E0002;
+        }
+ .TitleTema{
+  color: white;
+ 
+  font-size: 2em;
+  text-align: center;
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+ border-radius: 5px;
+  border: 1px solid;
+border-color: black;
+box-shadow: 0px 0px 40px 15px black;
+
+}
+.TitleTema:hover{
+  text-decoration: underline;
+}
+.entreEmContato{
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  padding-top: 50px;
+background-color: #0E0002;
+color: white;
+box-shadow: 0px 0px 40px 15px #0E0002;
+}
+
+.entreEmContato:hover{
+  text-decoration: underline;
+}
+.form-Container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #0E0002;
+}
+form{
+  display: flex;
+  flex-direction: column;
+border: 2px solid;
+width: 40%;
+justify-content: center;
+border-radius: 30px;
+margin-top: 10vh;
+background-color: #240D10;
+margin-bottom: 4em;
+}
+form input{
+  line-height: 2em;
+  margin-top: 15%;
+  width: 90%;
+  font-weight: 800;
+align-items: center;
+margin-left: 4%;
+border: solid 2px;
+border-radius: 5px;
+}
+#areaDeSugestão{
+margin-top: 100px;
+ height: 100px;
+ width: 90%;
+ align-items:flex-start;
+ text-align: center;
+}
+.enviar{
+  margin-top: 10%;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.fraseFinal{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3em;
+  line-height: 2em;
+  color: white;
+  background-color: #0E0002;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+
+}
+
+
+
+/* responsividade */
+
+@media (min-width: 320px){
+.contaecarro{
+  height: 5vh;
+  line-height: 2em;
+}
+
+.img1{
+  width: 80%;
+}
+.pesquisa{
+  width: 70%;
+  height: 3vh;
+  font-size: 15px;
+}
+h1.simbolo{
+  position: relative;
+ top: -2px;
+height: 23px;
+font-size: 17px;
+}
+
+.frase {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  font-size: 10px;
+}
+livroAberto{
+height: 20vh;
+}
+
+.title2{
+  font-size: 1.5em;
+}
+.wrapper{
+  height: 15vh;
+}
+.wrapper img{
+height: 12vh;
+}
+
+.wrapper a {
+  font-size: 30px;
+  padding: 2px;
+}
+.todoslivrostitle{
+  width: 100%;
+}
+.todoslivrostitle input{
+  width: 90%;
+  font-size: 17px;
+}
+.TitleTema{
+  font-size: 25px;
+}
+
+.entreEmContato{
+  width: 100%;
+  font-size: 25px;
+}
+form{
+  width: 70%;
+
+}
+#areaDeSugestão{
+  margin-top: 40px;
+}
+
+form input{
+  margin-top: 7%;
+}
+
+.fraseFinal {
+  font-size: 20px;
+}
+
+
+body{
+  
+  background-color: #0E0002;
+}
+  }
+
+  @media (min-width: 412px){
+    .contaecarro{
+      line-height: 2.5em;
+    }
+    .wrapper a {
+      font-size: 40px;
+      padding: 1px;
+    }
+    h1.simbolo {
+      position: relative;
+      top: -2px;
+      height: 30px;
+      font-size: 23px;
+  }
+  .logo{
+    height: 20vh;
+  }
+  h3.frase{
+    font-size: 15px;
+  }
+  .fraseFinal{
+    line-height: 1.5em;
+    height: 17vh;
+  }
+  }
+
+  @media (min-width: 820px){
+    .contaecarro{
+      line-height: 3.5em;
+    }
+    .wrapper a {
+      font-size: 48px;
+      padding: 1px;
+    }
+    h1.simbolo {
+      position: relative;
+      top: -4px;
+      height: 39.39px;
+      font-size: 25px;
+  }
+  .logo{
+    height: 30vh;
+  }
+  h3.frase{
+    font-size: 20px;
+  }
+  .fraseFinal{
+    line-height: 1.5em;
+    height: 30vh;
+  }
+  h2.title2{
+    font-size: 2.3em;
+  }
+
+.TitleTema{
+  font-size: 2em;
+}
+  }
+  @media (min-width: 912px){
+    .fraseFinal{
+      height: 40vh;}
+      .todoslivrostitle input{
+        width: 90%;
+        font-size: 25px;
+      }
+      .entreEmContato{
+        font-size: 2.3em;
+      }
+    }
+    @media (min-width: 1024px){
+      .contaecarro {
+        justify-content: space-around;
+        line-height: 2em;
+        float: right;
+        display: flex;
+        background-color: #0E0002;
+        width: 100%;
+        text-align: right;
+        padding-top: 2%;
+    }
+    .logo {
+      width: 100%;
+      height: 30vh;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      background-color: #0E0002;
+  }
+  .img1{
+  width: 40%;
+    }
+    .wrapper{
+      height: 40vh;
+    }
+    .wrapper img {
+      border-radius: 20px;
+      height: 30vh;
+      width: 100%;
+      cursor: pointer;
+  }
+  .fraseFinal{
+    font-size: 2em;
+    height: 10vh;
+  }
+  }
